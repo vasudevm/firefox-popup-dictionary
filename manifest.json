@@ -1,0 +1,25 @@
+{
+
+  "manifest_version": 2,
+  "name": "Dictionary",
+  "version": "1.0",
+
+  "description": "Find meanings of a word or a phrase without leaving the page you are browsing",
+
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["js/jquery-3.3.1.min.js", "dictionary.js"],
+      "css": ["css/style.css"]
+    }
+  ],
+  
+  "permissions": [
+    "https://glosbe.com/*"
+  ]
+
+}
