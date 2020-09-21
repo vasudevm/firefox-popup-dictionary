@@ -19,8 +19,7 @@
   ],
   
   "permissions": [
-    "https://glosbe.com/*",
-    "https://api.dictionaryapi.dev/*"
+    "https://glosbe.com/*"
   ]
 
 }
